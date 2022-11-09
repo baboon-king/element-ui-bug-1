@@ -3,6 +3,7 @@ import { getCurrentInstance } from "vue";
 import { onMounted } from "vue";
 
 onMounted(() => {
+  debugger
   console.log("Mounted");
   if (Array.isArray(window.arr)) {
     window.arr.push(getCurrentInstance());
